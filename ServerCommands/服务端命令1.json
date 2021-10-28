@@ -1,0 +1,52 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Office365LoginCommand.Offic365LoginCommand, Office365LoginCommand",
+      "ClientId": "1",
+      "TenantId": "1",
+      "ClientSecret": "1"
+    },
+    {
+      "$type": "SleepCommand.SleepCommand, SleepCommand",
+      "SleepDuration": "3"
+    },
+    {
+      "$type": "UserManagementCommands.Commands.AddUserCommand, UserManagementCommands",
+      "UserName": "1",
+      "FullName": "1",
+      "Password": "1",
+      "Email": "1",
+      "ExtendedProperties": []
+    },
+    {
+      "$type": "OpenWeChatCommand.WeChatLoginCommand, OpenWeChatCommand",
+      "AppId": "1",
+      "AppSecret": "1"
+    },
+    {
+      "$type": "OpenDingTalkCommand.DingTalkLoginCommand, OpenDingTalkCommand",
+      "AppId": "1",
+      "AppSecret": "1"
+    },
+    {
+      "$type": "OperateFilesCommand.DownloadFileCommand, OperateFilesCommand",
+      "FilePath": "test"
+    },
+    {
+      "$type": "EncryptDecryptCommand.Sha1EncryptionCommand, EncryptDecryptCommand",
+      "Source": "12323"
+    }
+  ],
+  "Name": "服务端命令1"
+}
