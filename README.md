@@ -6,4 +6,4 @@
 * [活字格的插件一览](https://appmarket.grapecity.com.cn/%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8)
 * [了解更多低代码知识](https://www.grapecity.com.cn/lowcode)
 
-重要提示：使用活字格clone github的项目时，密码处应填写[personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)，而不是登录密码。
+重要提示：使用活字格pull github的项目时，密码处应填写[personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)，而不是登录密码。
